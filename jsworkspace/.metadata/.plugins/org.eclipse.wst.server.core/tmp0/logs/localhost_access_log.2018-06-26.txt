@@ -1,0 +1,12 @@
+127.0.0.1 - - [26/Jun/2018:18:54:45 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [26/Jun/2018:18:54:46 +0530] "GET /JavaScriptDemo/firstPage.html HTTP/1.1" 200 188
+0:0:0:0:0:0:0:1 - - [26/Jun/2018:18:55:16 +0530] "GET /JavaScriptDemo/firstPage.html HTTP/1.1" 200 189
+0:0:0:0:0:0:0:1 - - [26/Jun/2018:18:55:23 +0530] "GET /JavaScriptDemo/firstPage.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Jun/2018:18:55:29 +0530] "GET /JavaScriptDemo/firstPage.html HTTP/1.1" 200 189
+0:0:0:0:0:0:0:1 - - [26/Jun/2018:18:56:27 +0530] "GET /JavaScriptDemo/firstPage.html HTTP/1.1" 200 274
+0:0:0:0:0:0:0:1 - - [26/Jun/2018:18:58:18 +0530] "GET /JavaScriptDemo/firstPage.html HTTP/1.1" 200 334
+0:0:0:0:0:0:0:1 - - [26/Jun/2018:18:58:18 +0530] "GET /JavaScriptDemo/myScript.js HTTP/1.1" 200 33
+0:0:0:0:0:0:0:1 - - [26/Jun/2018:18:58:41 +0530] "GET /JavaScriptDemo/firstPage.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Jun/2018:18:58:41 +0530] "GET /JavaScriptDemo/myScript.js HTTP/1.1" 200 35
+0:0:0:0:0:0:0:1 - - [26/Jun/2018:19:02:34 +0530] "GET /JavaScriptDemo/firstPage.html HTTP/1.1" 200 482
+0:0:0:0:0:0:0:1 - - [26/Jun/2018:19:02:34 +0530] "GET /JavaScriptDemo/myScript.js HTTP/1.1" 200 35

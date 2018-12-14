@@ -1,0 +1,6 @@
+127.0.0.1 - - [11/Jul/2018:19:29:54 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [11/Jul/2018:19:29:55 +0530] "GET /JavaScriptDemo/fourthPage.html HTTP/1.1" 200 1223
+0:0:0:0:0:0:0:1 - - [11/Jul/2018:19:30:10 +0530] "GET /JavaScriptDemo/firstPage.html HTTP/1.1" 200 830
+0:0:0:0:0:0:0:1 - - [11/Jul/2018:19:30:10 +0530] "GET /JavaScriptDemo/myScript.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Jul/2018:19:30:54 +0530] "GET /JavaScriptDemo/fifthPage.html HTTP/1.1" 200 148
+0:0:0:0:0:0:0:1 - - [11/Jul/2018:19:32:32 +0530] "GET /JavaScriptDemo/secondPage.html HTTP/1.1" 304 -

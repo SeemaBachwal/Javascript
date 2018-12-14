@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Learning Arrays and Conditional Blocks</title>
+<script type="text/javascript">
+
+//creating arrays
+
+names = new Array("John", "Jack", "Fen", "Kate", "Jill");
+//alert(names);
+//alert("Names Array length  "+names.length)
+
+namesArr = new Array(5);
+namesArr[0]="Seema";
+namesArr[1]="Prashant";
+//alert(namesArr); 
+
+</script>
+
+<script type="text/javascript">
+var book = "maths";
+if(book == "history")
+	document.write("<b>this is history book</b>");
+else if (book == "english")
+	document.write("<b>this is english book</b>");
+else
+	document.write("<i>Yayy .. We found the match.. it is a </i>"+book+ " <i>book !!</i>");
+
+</script>
+
+<script type="text/javascript">
+
+// Loops
+document.write("<br><br>")
+for ( var num = 1; num <= 10; num++) {
+	
+	document.write(num + " ");		
+}
+</script>
+
+<script type="text/javascript">
+
+var num = 18
+document.write("<br><br>")
+if(num < 20)
+	document.write("Num is less than 20")
+else
+	document.write("Num is greater than 20")
+	
+
+function sayHello(){
+	
+	alert("Hello World !!")
+}	
+	
+</script>
+
+<script type="text/javascript">
+var grade = 'A'
+document.write("<br><br>")
+switch (grade) {
+
+case 'B': document.write("The grade is B !!")	
+	break;
+
+case 'C': document.write("The grade is C !!")
+break;
+
+case 'A': document.write("The grade is A !!")
+break;
+
+case 'a': document.write("The grade is a !!")
+break;
+
+default: document.write("Default grade !!")
+	break;
+}
+
+document.write("<br><br>")
+var netProp;
+for(netProp in navigator)
+	document.write(netProp+"<br />")
+	
+</script>
+
+
+
+
+</head>
+
+<body>
+	<br><br>
+	<input type="button" onclick="sayHello()" value="Submit" />
+
+</body>
+</html>

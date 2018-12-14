@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="D:\Installers\Eclipse\Juno" version="1.8.0_45">
+<bootpath>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\resources.jar"/>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\rt.jar"/>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\sunrsasign.jar"/>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\jsse.jar"/>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\jce.jar"/>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\charsets.jar"/>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\jfr.jar"/>
+<entry path="D:\Installers\Eclipse\Juno\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="D:\Installers\Eclipse\Juno\jre" version="1.8.0_45">
+<bootpath>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\resources.jar"/>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\rt.jar"/>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\sunrsasign.jar"/>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\jsse.jar"/>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\jce.jar"/>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\charsets.jar"/>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\jfr.jar"/>
+<entry path="D:\Installers\Eclipse\Juno\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\Installers\Eclipse\Juno\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

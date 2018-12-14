@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Functions (Nested,Constructors,Literals)</title>
+
+<script type="text/javascript">
+	
+	// Simple function
+
+	function sayHi() {
+		alert("Hey Hi !!")
+	}
+
+	// Parameterized function
+
+	function sayHiParam(name, age) {
+		alert("My nams is " + name + " and I am " + age + " years old")
+	}
+	
+</script>
+
+<script type="text/javascript">
+
+<!--  sample code for Nested Functions  //-->
+
+	function calArea(l, b) {
+
+		// Nested Function square()
+		function square(a) {
+			return a * a
+		}
+
+		// Nested function call to square()
+		return Math.sqrt(square(l) + square(b))
+	}
+
+	function callAreaFn() {
+
+		var area;
+		area = calArea(1, 2)
+		alert("Area is : " + area)
+
+	}
+	
+</script>
+
+
+<script type="text/javascript">
+	
+	// fucntion constructor it has a new keyword with Funtion(only string arguments, followed by stmts ; separated)
+	
+	var funConstructor = new Function("a", "b", "alert(a*b) ;");
+	
+</script>
+
+<script type="text/javascript">
+
+	// Function Literal 
+
+	var area = function(radius) { alert("Area of circle : "+3.14*radius*radius) };
+</script>
+
+</head>
+<body>
+
+	<p>Click the following buttons ..!!</p>
+	<form>
+		<input type="button" onclick="sayHi()" value="Hi">
+		<br><br> 
+		<input type="button" onclick="sayHiParam('Rina', 10)" value="Details">
+		<br><br> 
+		<input type="button" onclick="callAreaFn()" value="Submit">
+		<br><br>
+		<input type="button" onclick="funConstructor(10,30)" value="ConstructorFunc">
+		<br><br>
+		<input type="button" onclick="area(5)" value="LiteralFunc">
+	</form>
+
+</body>
+</html>

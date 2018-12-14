@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Events</title>
+
+<script type="text/javascript">
+	// onsubmit event
+	function validate() {
+
+		return true;
+
+	}
+
+	var overSection = function() {
+		document.write("Over the section");
+	}
+
+	var outSection = function() {
+		document.write("Out of section");
+	}
+</script>
+
+<script type="text/javascript">
+<!--
+	function over() {
+		document.write("Mouse Over");
+	}
+
+	function out() {
+		document.write("Mouse Out");
+	}
+//-->
+</script>
+
+<script type="text/javascript">
+	function close() {
+
+		setTimeout(window.close(), 1000);
+	}
+</script>
+
+
+</head>
+<body>
+
+	<form method="get" action="https://www.google.com/"
+		onsubmit="return validate()">
+		<br>
+		<br> <input type="submit" value="Submit"> <br>
+		<br>
+
+		<section onmouseover="overSection()" onmouseout="outSection()">
+			<h1>We are inside the section area</h1>
+		</section>
+
+
+		<p>Bring your mouse inside the division to see the result:</p>
+
+		<div onmouseover="over()" onmouseout="out()">
+			<h2>This is inside the division</h2>
+		</div>
+
+
+		<br>
+		<br> <input type="button" onclick="close()" value="Close Window">
+
+
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+INDEX VERSION 1.122+D:\RBTSessions\Javascript\jsworkspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3118910309.index
+1016968611.index
+766087341.index
+1024313844.index
+2443966161.index
+2681697835.index

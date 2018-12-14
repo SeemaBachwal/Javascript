@@ -1,0 +1,1 @@
+alert("Call to external .js file");
